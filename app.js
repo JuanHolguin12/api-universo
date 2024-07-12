@@ -22,7 +22,7 @@ app.use(express.static("uploads"))
 app.use(cors());
 
 //Configure routings
-app.get("/", (req, res) => {
+app.get(`/api/${API_VERSION}`, (req, res) => {
     return res.json("hello world")
 })
 app.use(`/api/${API_VERSION}`, authRoutes)
