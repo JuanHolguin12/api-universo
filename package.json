@@ -6,7 +6,7 @@
   "author": "Juan Esteban Holguin Galeano",
   "license": "MIT",
   "engines": {
-    "node": "20.x"
+    "node": "18.14.2"
   },
   "scripts": {
     "start": "node index.js",
