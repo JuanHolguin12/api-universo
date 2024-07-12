@@ -25,6 +25,9 @@ app.use(cors());
 app.get(`/api/${API_VERSION}`, (req, res) => {
     return res.json("hello world")
 })
+app.get(`/`, (req, res) => {
+    return res.json("hello world")
+})
 app.use(`/api/${API_VERSION}`, authRoutes)
 app.use(`/api/${API_VERSION}`, userRoutes)
 app.use(`/api/${API_VERSION}`, propertyRoutes)

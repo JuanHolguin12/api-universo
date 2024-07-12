@@ -5,6 +5,9 @@
   "main": "index.js",
   "author": "Juan Esteban Holguin Galeano",
   "license": "MIT",
+  "engines": {
+    "node": "20.x"
+  },
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js"
